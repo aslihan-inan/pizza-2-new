@@ -1,5 +1,5 @@
 import React from "react";
-import "./Kampanya.css";
+import "./kampanya.css";
 import pizzaImg from "../assets/cta/kart-1.png";
 import burgerImg from "../assets/cta/kart-2.png";
 import kuryeImg from "../assets/cta/kart-3.png";
