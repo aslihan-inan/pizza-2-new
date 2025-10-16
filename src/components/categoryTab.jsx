@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./categoryTabs.css";
-import food1 from "../assets/food-1.png";
-import food2 from "../assets/food-2.png";
-import food3 from "../assets/food-3.png";
+import food1 from "./assets/food-1.png";
+import food2 from "./assets/food-2.png";
+import food3 from "./assets/food-3.png";
 
 export default function MenuSection() {
   const categories = [
