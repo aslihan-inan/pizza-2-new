@@ -1,0 +1,53 @@
+.banner-container {
+  display: flex;
+  flex-wrap: wrap; /* Küçük ekranlarda alt satıra geçmesi için */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Esnek gap */
+  background-color: white;
+  padding: 20px;
+  max-width: 100%; /* Sabit 1920px yerine tam genişlik */
+  margin-top: 3rem; /* px yerine rem ile daha esnek */
+  box-sizing: border-box;
+}
+
+.banner-item {
+  display: flex;
+  gap: 10px;
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-size: clamp(14px, 1.5vw, 18px); /* responsive font */
+  background-color: white;
+  padding: clamp(8px, 1vw, 12px) clamp(12px, 1.5vw, 15px);
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
+
+.banner-item:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.banner-item img {
+  width: clamp(24px, 2vw, 32px); /* responsive simge boyutu */
+  height: auto;
+}
+
+/* Küçük ekranlar için ek düzenleme */
+@media (max-width: 768px) {
+  .banner-container {
+    gap: 15px;
+    margin-top: 2rem;
+    padding: 15px;
+  }
+  
+  .banner-item {
+    font-size: clamp(12px, 2vw, 16px);
+    padding: 8px 10px;
+  }
+
+  .banner-item img {
+    width: clamp(20px, 5vw, 28px);
+  }
+}

@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #213547;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #747bff;
+}
+
+body {
+  margin: 0;
+  display: block;
+  min-width: 320px;
+  min-height: 100vh;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  align-items: flex-start;
+  font-size: clamp(2rem, 5vw, 5rem); /* responsive font */
+  line-height: 1.1;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 10px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  vertical-align: middle;
+}
+
+button {
+  width: clamp(80px, 12vw, 93px);   /* responsive genişlik */
+  height: clamp(40px, 5vh, 52px);   /* responsive yükseklik */
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em; /* düzeltildi */
+  font-size: clamp(14px, 2vw, 18px);
+  font-weight: 600;
+  line-height: 1.2;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #FDC913;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  letter-spacing: 0;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

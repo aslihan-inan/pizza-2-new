@@ -1,0 +1,129 @@
+/* Wrapper merkezi ve krem arka plan */
+.banner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fffaf5;
+  box-sizing: border-box;
+  flex-wrap: wrap; /* Responsive için */
+}
+
+/* Sol banner */
+.banner-left {
+  background-color: #ce2829;
+  color: white;
+  flex: 2;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  min-width: 300px;
+  max-width: 550px;
+}
+
+.banner-left h1 {
+  font-size: 48px;
+  line-height: 56px;
+  margin: 25px 0 10px 25px;
+  font-family: "Quattrocento", serif;
+}
+
+.banner-left p {
+  margin-left: 25px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.banner-left button {
+  margin-left: 25px;
+  margin-top: 20px;
+  background: white;
+  color: #ce2829;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.banner-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+}
+
+/* Sağ banner */
+.banner-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Banner box */
+.banner-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 10px;
+  position: relative;
+  min-height: 200px;
+}
+
+.banner-box.dark {
+  background-color: #1a1a1a;
+  color: white;
+  font-weight: 600;
+}
+
+.banner-box.light {
+  background-color: #f8f8f8;
+  color: black;
+  font-weight: 600;
+}
+
+.banner-box button {
+  margin-top: 10px;
+  background: white;
+  color: #ce2829;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.banner-box img {
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+}
+
+/* Genel buton */
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 138px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #ce2829;
+}
