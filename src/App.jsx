@@ -1,5 +1,4 @@
 import { useHistory } from 'react-router-dom'; 
-import background from './assets/home-banner.png';
 import logo from "./assets/logo.svg";
 import './App.css';
 import Banner from "./components/banner.jsx";
