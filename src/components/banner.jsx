@@ -5,7 +5,7 @@ import burgerIcon from "../assets/icons/3.svg";
 import kizartmaIcon from "../assets/icons/4.svg";
 import fastfoodIcon from "../assets/icons/5.svg";
 import gazliIcon from "../assets/icons/6.svg";
-import "./Banner.css";
+import "./banner.css";
 
 function Banner() {
   return (
